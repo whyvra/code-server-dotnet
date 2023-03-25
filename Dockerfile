@@ -9,7 +9,7 @@ RUN curl -O https://packages.microsoft.com/config/debian/11/packages-microsoft-p
     && rm packages-microsoft-prod.deb \
     && echo deb http://deb.debian.org/debian bullseye-backports main | tee /etc/apt/sources.list.d/bullseye-backports.list \
     && apt-get update \
-    && apt-get install -y apt-transport-https \
+    && apt-get install -y apt-transport-https libgdiplus libc6-dev \
     && apt-get update \
     && apt-get install -y dotnet-sdk-6.0 \
     && apt-get install -y -t bullseye-backports git \
