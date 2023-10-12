@@ -11,7 +11,7 @@ RUN curl -O https://packages.microsoft.com/config/debian/11/packages-microsoft-p
     && apt-get update \
     && apt-get install -y apt-transport-https libgdiplus libc6-dev \
     && apt-get update \
-    && apt-get install -y dotnet-sdk-6.0 \
+    && apt-get install -y dotnet-sdk-7.0 \
     && apt-get install -y -t bullseye-backports git \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
