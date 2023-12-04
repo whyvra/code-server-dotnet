@@ -5,7 +5,7 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/whyvra/code-server-dotnet/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A docker image based on `code-server` with added support for the .NET 6.0 SDK.
+A docker image based on `code-server` with added support for the .NET 8.0 SDK.
 
 ## Usage
 
